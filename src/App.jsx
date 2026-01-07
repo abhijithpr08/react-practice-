@@ -3,6 +3,7 @@ import HelloWorld from './components/HelloWorld'
 import Greeting from './components/Greeting'
 import FruitList from './components/FruitList'
 import User from './components/User'
+import AlertButton from './components/AlertButton'
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Greeting name="Abhi"/>
       <FruitList/>
       <User isLoggin={false}/>
+      <AlertButton/>
     </div>
   )
 }

@@ -5,6 +5,7 @@ import FruitList from './components/FruitList'
 import User from './components/User'
 import AlertButton from './components/AlertButton'
 import Clock from './components/Clock'
+import Parent from './components/Parent'
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <User isLoggin={false}/>
       <AlertButton/>
       <Clock/>
+      <Parent/>
     </div>
   )
 }

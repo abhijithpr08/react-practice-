@@ -6,6 +6,7 @@ import User from './components/User'
 import AlertButton from './components/AlertButton'
 import Clock from './components/Clock'
 import Parent from './components/Parent'
+import UserList from './components/UserList'
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
       <AlertButton/>
       <Clock/>
       <Parent/>
+      <UserList/>
     </div>
   )
 }
